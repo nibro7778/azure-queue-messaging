@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{2406BA24-501C-4ED8-AFAD-EB145C8365B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.StorageQueue.NetApp", "HelloWorld\HelloWorld.StorageQueue.NetApp.csproj", "{2406BA24-501C-4ED8-AFAD-EB145C8365B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.ServiceBusQueue.NetCoreApp", "HelloWorld.NetCoreApp\HelloWorld.ServiceBusQueue.NetCoreApp.csproj", "{F983A935-F302-4D19-A818-38B18359E0E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2406BA24-501C-4ED8-AFAD-EB145C8365B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2406BA24-501C-4ED8-AFAD-EB145C8365B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2406BA24-501C-4ED8-AFAD-EB145C8365B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F983A935-F302-4D19-A818-38B18359E0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F983A935-F302-4D19-A818-38B18359E0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F983A935-F302-4D19-A818-38B18359E0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F983A935-F302-4D19-A818-38B18359E0E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
